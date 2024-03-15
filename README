@@ -1,0 +1,5 @@
+Los archivos .sql sirven para crear la pequeña base de datos a utilizar de ejemplo con nuestras clases.
+
+Las clases del modelo MVC estan dentro de la carpeta src. Estas clases estan separadas en diferentes carpetas(modelo, vista y controlador), para facilitar la conprensión del proyecto.
+
+Asegúrate de que al copiar el proyecto modifiques la clase Conexion dentro de la carpeta modelo para cambiar la contraseña y usuario de la base de datos a tu conveniencia. 

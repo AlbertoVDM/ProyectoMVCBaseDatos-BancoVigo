@@ -1,5 +1,9 @@
 Los archivos .sql sirven para crear la pequeña base de datos a utilizar de ejemplo con nuestras clases.
 
+El archivo 'mysql-connector-j-8.2.0.jar' es el encargado de que la conexion entre nuestro proyecto y la base de datos sql funcione correctamente 
+
 Las clases del modelo MVC estan dentro de la carpeta src. Estas clases estan separadas en diferentes carpetas(modelo, vista y controlador), para facilitar la conprensión del proyecto.
 
 Asegúrate de que al copiar el proyecto modifiques la clase Conexion dentro de la carpeta modelo para cambiar la contraseña y usuario de la base de datos a tu conveniencia. 
+
+El archivo 'mysql-connector-j-8.2.0.jar' es el encargado de que la conexion entre nuestro proyecto y la base de datos sql funcione correctamente 

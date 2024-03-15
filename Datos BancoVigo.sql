@@ -1,0 +1,14 @@
+INSERT INTO Sucursales (suCodSucursal, suCiudad, suActivo) VALUES (1, 'Ourense', 100000.00);
+INSERT INTO Sucursales (suCodSucursal, suCiudad, suActivo) VALUES (2, 'Vigo', 200000.00);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('12345678A', 'Juan', 'Pérez', 987654321);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('87654321B', 'Ana', 'García', 123456789);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('23456789C', 'Carlos', 'López', 912345678);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('34567890D', 'María', 'Martínez', 934567890);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('45678901E', 'Lucía', 'Fernández', 956789012);
+INSERT INTO Cliente (clDni, clNombre, clApellido, clTelefono) VALUES ('56789012F', 'David', 'González', 978901234);
+INSERT INTO Cuenta (cuCodSucursal, cuFechaCreacion, CuSaldo) VALUES (1, '2024-01-10', 5000);
+INSERT INTO Cuenta (cuCodSucursal, cuFechaCreacion, CuSaldo) VALUES (2, '2024-01-15', 7500);
+INSERT INTO CuentasCliente (ccDNI, ccCodCuenta) VALUES ('12345678A', 1);
+INSERT INTO CuentasCliente (ccDNI, ccCodCuenta) VALUES ('87654321B', 2);
+INSERT INTO Transacciones (trCodCuenta, trFechaTransaccion, trTipo, trCantidad) VALUES (1, '2024-01-20', 'I', 1000);
+INSERT INTO Transacciones (trCodCuenta, trFechaTransaccion, trTipo, trCantidad) VALUES (2, '2024-01-22', 'R', 500);
